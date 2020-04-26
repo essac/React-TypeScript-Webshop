@@ -1,0 +1,41 @@
+.form-parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-child {
+     display: flex;
+     margin: 5px 5px;
+     padding: 5px;
+     box-sizing: border-box;
+     flex-direction: row;
+     align-items: center;
+}
+
+.form-label-email {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.form-input-email{
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+    color: black;
+}
+
+.form-select{
+   margin: 5px;
+   width: 250px;
+   height: 40px;
+}
+
+.checkout-btn {
+    width: 150px;
+    margin: 20px 5px;
+    padding: 11px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    border: solid 3px #2f2f2f;
+}

@@ -1,0 +1,139 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child {
+    display: flex;
+    width: 25%;
+    margin: 20px 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(234, 0, 255);
+    background-color: rebeccapurple;
+}
+
+.movieTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.moviePrice {
+    color: rgb(60, 255, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.movieImage {
+    max-width: 250px;
+    max-height: 380px;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid #ddd;
+    filter: saturate(2);
+}
+
+.movieDescription {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 8px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    align-self: flex-start;
+    color: rgb(255, 83, 212);
+}
+
+.movieDesc {
+    font-size: 11px;
+    margin: 0px 8px;
+    margin-bottom: 15px;
+}
+
+.btn-warning {
+    margin-top: auto;
+    margin-bottom: 5px;
+    padding: 11px;
+    width: 150px;
+    align-items: stretch;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+}
+
+.searchBar-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.searchBar-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+}
+
+.searchBar {
+    width: 65%;
+    margin: 20px;
+    padding: 11px;
+    align-items: stretch;
+    border-radius: 25px;
+    border: 3px solid rgb(80, 0, 112);
+    background-color: rgb(87, 1, 121);
+    color: rgb(255, 255, 255);
+    color: rgb(255, 20, 147);
+    outline: none;
+    font-weight: bold;
+}
+
+.searchBar-clear {
+    width: 150px;
+    margin: 20px 0px;
+    padding: 11px;
+    align-items: stretch;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    border: solid 3px rebeccapurple;
+}
+
+.category-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-child {
+    margin: 5px;
+    padding: 5px;
+}
+
+.category-btn {
+    width: 150px;
+    margin: 20px 5px;
+    padding: 11px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    border: solid 3px rebeccapurple;
+}
+
+.resetCategory-btn {
+    width: 150px;
+    margin: 20px 5px;
+    padding: 11px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    border: solid 3px rebeccapurple;
+}
+
+.addToCart-btn {
+    border: solid 3px rebeccapurple;
+}

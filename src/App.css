@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+Body {
+  color: rgb(255, 255, 255);
+}
+
+.AppList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 2px solid #444444;
+  background-color: rgb(255, 20, 147);
+  padding: 10px;
+}
+
+li {
+  float: left;
+}
+
+.CartLink{
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 187, 0);
+}

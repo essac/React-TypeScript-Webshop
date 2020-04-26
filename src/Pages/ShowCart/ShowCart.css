@@ -1,0 +1,71 @@
+.ShowCartBlock {
+    background-color: rgb(104, 1, 144);
+    min-height: 100vh;
+}
+
+.ShowCartBlock-child {
+    background-color: rebeccapurple;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkslategray;
+    display: flex;
+}
+
+.ShowCartBlock-info {
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin-left: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.cartremove-btn {
+    width: 100px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    border: solid 5px crimson;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.ShowCartBlock-total {
+    background-color: rgb(47, 47, 47);
+    border-top: 5px solid darkorchid;
+    border-bottom: 5px solid darkorchid;
+}
+
+.availablePayment {
+    margin-top: 30px;
+    margin-left: 13px;
+    font-size: 18px;
+}
+
+.span-totalprice {
+    color: greenyellow;
+}
+
+.span-price {
+    color: gold;
+}
+
+.details {
+    margin-left: 13px;
+    font-size: 18px;
+    color: darkorange;
+}
+
+.cart-totalprice {
+    padding-top: 15px;
+    margin-left: 13px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn-success {
+    margin: 5px;
+}
