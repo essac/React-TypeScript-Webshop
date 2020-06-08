@@ -1,4 +1,4 @@
-## Webshop Aplication with REACT: CLASSES & HOOKS.
+## Webshop Aplication With REACT: CLASSES & HOOKS.
 
 The webshop gets the products dynamically from an API then present the products.
 
