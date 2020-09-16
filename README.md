@@ -6,7 +6,7 @@ The webshop gets the products dynamically from an API then present the products.
 * Call items from an API.
 * Add items to cart.
 * Modify the quantity of items in cart.
-* Delete delete from cart.
+* Delete from cart.
 * Search panel (Search items by name).
 * Categories (Sort items by genre).
 * Check-out (Orders and customers details saved).
